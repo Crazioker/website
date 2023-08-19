@@ -8,13 +8,13 @@ export default defineNuxtConfig({
     proxyApiUrl: 'https://zlab.zlgcloud.com/v1/'
   },
   nitro:{
-    devProxy:{
-        '/website/api/':{
-            target: 'https://zlab.zlgcloud.com/v1',
-            changeOrigin: true,
-            prependPath: true
-        }
-    },
+    // devProxy:{
+    //     '/website/api/':{
+    //         target: 'https://zlab.zlgcloud.com/v1',
+    //         changeOrigin: true,
+    //         prependPath: true
+    //     }
+    // },
     // routeRules:{
     //     '/api/**':{
     //         proxy:{
